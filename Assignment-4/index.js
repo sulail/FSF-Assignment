@@ -8,7 +8,7 @@ let image = "";
 
 if (percentage >= 0 && percentage <= 100) {
 
-    if (percentage >= 80) {
+    if (percentage >= 90) {
        
         grade = " 🏅A<sup>+<sup><br> 🏆Outstandinge";
         status = "PASS";
@@ -16,7 +16,7 @@ if (percentage >= 0 && percentage <= 100) {
         image = "images/pass.png"
         ;
     }
-    else if (percentage >= 70) {
+    else if (percentage >= 80) {
     
         grade = "🥇A <br>🎉Excellent";
         status = "PASS";
@@ -24,7 +24,7 @@ if (percentage >= 0 && percentage <= 100) {
         image = "images/pass.png"
         ;
     }
-    else if (percentage >= 60) {
+    else if (percentage >= 70) {
        
         grade = "🥈B <br>👏Welldone" ;
         status = "PASS";
@@ -32,9 +32,17 @@ if (percentage >= 0 && percentage <= 100) {
         image = "images/pass.png"
         ;
     }
-    else if (percentage >= 50) {
+    else if (percentage >= 60) {
     
         grade = "🥉C <br> 🌟improvment";
+        status = "PASS";
+        color = "#28a745";
+        image = "images/pass.png"
+        ;
+    }
+     else if (percentage >=40) {
+    
+        grade = "😥D <br> 😞Promoted";
         status = "PASS";
         color = "#28a745";
         image = "images/pass.png"
