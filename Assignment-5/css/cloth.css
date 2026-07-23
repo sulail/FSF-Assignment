@@ -256,7 +256,9 @@ img{
     font-weight:bold;
     margin-bottom:15px;
 }
-
+.rating{
+    margin-bottom:15px;
+}
 .card p{
     color:#666;
     line-height:1.6;
